@@ -45,7 +45,7 @@ export default function App() {
       </div>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Uniswap Swap Widget</h1>
+        <h1 className={styles.title}>Swap Widget</h1>
 
         <div className={styles.demo}>
           <div className={styles.connectors} ref={connectors} tabIndex={-1}>
@@ -66,9 +66,9 @@ export default function App() {
           </div>
         </div>
 
-        <hr className={styles.rule} />
+        {/* <hr className={styles.rule} /> */}
 
-        <DocumentationCards />
+        {/* <DocumentationCards /> */}
       </main>
     </div>
   )
