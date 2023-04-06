@@ -5,15 +5,24 @@ import { BsBook, BsInfoCircle } from 'react-icons/bs'
 export default function DocumentationCards() {
   return (
     <div className={styles.grid}>
-      <a href="https://docs.uniswap.org/" className={styles.card}>
+      <a href="https://openexa.com/" className={styles.card}>
         <div className={styles.row}>
           <BsBook />↗
         </div>
-        <h3>What is Uniswap</h3>
-        <p>Learn about the Uniswap Protocol and available SDKs.</p>
+        <h3>What is OpenExa</h3>
+        <p>Learn about crypto markets and credit tokens.</p>
       </a>
 
-      <a href="https://docs.uniswap.org/sdk/widgets/swap-widget" className={styles.card}>
+      <a href="https://github.com/OpenData-BondIntelligence" className={styles.card}>
+        <div className={styles.row}>
+          <FaGithub className={styles.logo} />↗
+        </div>
+        <h3>Github</h3>
+        <p>View the OpenExa Github.</p>
+      </a>
+
+
+      {/* <a href="https://docs.uniswap.org/sdk/widgets/swap-widget" className={styles.card}>
         <div className={styles.row}>
           <BsInfoCircle />↗
         </div>
@@ -29,20 +38,20 @@ export default function DocumentationCards() {
             <p>Hop into #widgets for realtime help.</p>
           </div>
         </div>
-      </a>
+      </a> */}
 
-      <a
-        href="https://github.com/Uniswap/interface/blob/main/src/lib/index.tsx"
+      {/* <a
+        href="https://github.com/OpenData-BondIntelligence"
         className={styles.card + ' ' + styles.external}
       >
         <div className={styles.row}>
           <FaGithub className={styles.logo} />
           <div className={styles.column}>
             <h3>GitHub</h3>
-            <p>View the Swap Widget&apos;s source.</p>
+            <p>View the OpenExa Github.</p>
           </div>
         </div>
-      </a>
+      </a> */}
     </div>
   )
 }

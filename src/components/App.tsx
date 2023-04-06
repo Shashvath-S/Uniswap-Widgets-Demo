@@ -66,9 +66,9 @@ export default function App() {
           </div>
         </div>
 
-        {/* <hr className={styles.rule} /> */}
+        <hr className={styles.rule} />
 
-        {/* <DocumentationCards /> */}
+        <DocumentationCards />
       </main>
     </div>
   )
