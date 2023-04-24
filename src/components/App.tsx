@@ -31,7 +31,7 @@ export default function App() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.i18n}>
+      {/* <div className={styles.i18n}>
         <label style={{ display: 'flex' }}>
           <FiGlobe />
         </label>
@@ -42,10 +42,10 @@ export default function App() {
             </option>
           ))}
         </select>
-      </div>
+      </div> */}
 
       <main className={styles.main}>
-        <h1 className={styles.title}>Swap Widget</h1>
+        {/* <h1 className={styles.title}>Swap Widget</h1> */}
 
         <div className={styles.demo}>
           <div className={styles.connectors} ref={connectors} tabIndex={-1}>
