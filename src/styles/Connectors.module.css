@@ -23,11 +23,11 @@
 
 .connector .status {
   width: 1rem;
-  fill: red;
+  fill: #6248ff;
 }
 
 .connector .status.active {
-  fill: green;
+  fill: #AC50EF;
 }
 
 @media (max-width: 727px) {

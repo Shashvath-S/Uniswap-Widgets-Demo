@@ -1,6 +1,6 @@
 import { useCallback, useRef, useState } from 'react'
 import { FiGlobe } from 'react-icons/fi'
-import { SupportedLocale, SUPPORTED_LOCALES, SwapWidget } from '@uniswap/widgets'
+import { SupportedLocale, SUPPORTED_LOCALES, SwapWidget, darkTheme, lightTheme, Theme } from '@uniswap/widgets'
 
 // ↓↓↓ Don't forget to import the widgets' fonts! ↓↓↓
 import '@uniswap/widgets/fonts.css'
@@ -28,6 +28,18 @@ export default function App() {
   // This is a value from the SUPPORTED_LOCALES exported by @uniswap/widgets.
   const [locale, setLocale] = useState<SupportedLocale>('en-US')
   const onSelectLocale = useCallback((e) => setLocale(e.target.value), [])
+
+  const myDarkTheme: Theme = {
+    ...darkTheme, // Extend the darkTheme
+    // interactive: '#CBD6BA',
+    // container: '#212429',
+    // module: '#1A1C38',
+    accent: '#6248ff',
+    // outline: '#CADDC2',
+    // dialog: '#FFF',
+    // borderRadius: 0.8,
+    tokenColorExtraction: true,
+  }
 
   return (
     <div className={styles.container}>
@@ -61,7 +73,8 @@ export default function App() {
               onConnectWallet={focusConnectors}
               defaultInputTokenAddress="NATIVE"
               defaultInputAmount="1"
-              defaultOutputTokenAddress={UNI}
+              // defaultOutputTokenAddress={UNI}
+              theme={myDarkTheme}
             />
           </div>
         </div>
