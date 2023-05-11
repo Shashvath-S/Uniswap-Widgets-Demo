@@ -16,7 +16,7 @@
   border: 1px solid #2C2F36;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  max-width: 320px;
   background-color: #202232;
   height: 230px;
 }
@@ -40,7 +40,7 @@
 
 .card h3 {
   margin: 0 0 12px 0;
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 500;
   /* background-color: #212429; */
 }

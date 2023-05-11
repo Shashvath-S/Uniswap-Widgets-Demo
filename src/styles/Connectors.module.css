@@ -7,8 +7,15 @@
 
 .connector {
   padding: 0.5rem 1rem;
-  border: 1px solid #c3c5cb;
-  border-radius: 10px;
+  /* border: 1px solid #c3c5cb; */
+  /* border-width: 4px; */
+  border-radius: 20px;
+  border-style: solid;
+  /* border-image: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6) 1; */
+  border: double 4px transparent;
+  background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
   display: flex;
   justify-content: flex-end;
   grid-auto-flow: column;

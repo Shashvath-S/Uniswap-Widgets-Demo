@@ -33,12 +33,12 @@ export default function App() {
     ...darkTheme, // Extend the darkTheme
     // interactive: '#CBD6BA',
     // container: '#212429',
-    // module: '#1A1C38',
+    module: '#202232',
     accent: '#6248ff',
     // outline: '#CADDC2',
     // dialog: '#FFF',
     // borderRadius: 0.8,
-    tokenColorExtraction: true,
+    // tokenColorExtraction: true,
   }
 
   return (

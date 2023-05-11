@@ -19,7 +19,7 @@ export default function DocumentationCards() {
         <div className={styles.row}>
           <FaMoneyCheckAlt className={styles.logo} />↗
         </div>
-        <h3>OpenEXA Token Management</h3>
+        <h3>Token Management</h3>
         <p>Minting of AUT's and OXA's and Management of Tokens.</p>
       </a>
 
