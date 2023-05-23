@@ -11,6 +11,7 @@ import { JSON_RPC_URL } from '../constants'
 import DocumentationCards from './DocumentationCards'
 import Web3Connectors from './Web3Connectors'
 import styles from '../styles/Home.module.css'
+import HeaderBar from './HeaderBar'
 
 const TOKEN_LIST = 'https://gateway.ipfs.io/ipns/tokens.uniswap.org'
 const UNI = '0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984'
@@ -43,6 +44,7 @@ export default function App() {
 
   return (
     <div className={styles.container}>
+      {/* <HeaderBar /> */}
       {/* <div className={styles.i18n}>
         <label style={{ display: 'flex' }}>
           <FiGlobe />

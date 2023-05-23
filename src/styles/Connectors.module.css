@@ -13,7 +13,7 @@
   border-style: solid;
   /* border-image: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6) 1; */
   border: double 4px transparent;
-  background: linear-gradient(45deg, #ac50ef, #7059fb 50%, #2ecff6);
+  background: linear-gradient(30deg, #ac50ef, #7059fb 50%, #2ecff6);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   display: flex;
@@ -30,11 +30,13 @@
 
 .connector .status {
   width: 1rem;
-  fill: #6248ff;
+  /* fill: #6248ff; */
+  fill: #c63721;
 }
 
 .connector .status.active {
-  fill: #AC50EF;
+  /* fill: #AC50EF; */
+  fill: #187730;
 }
 
 @media (max-width: 727px) {
