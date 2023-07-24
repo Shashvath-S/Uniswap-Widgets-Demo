@@ -1,8 +1,8 @@
 import styles from '../styles/Cards.module.css'
 import { FaGithub, FaDiscord } from 'react-icons/fa'
 import { BsBook, BsInfoCircle } from 'react-icons/bs'
-import { HiOutlineCurrencyDollar } from "react-icons/hi"
-import {FaMoneyCheckAlt} from 'react-icons/fa'
+import { HiOutlineCurrencyDollar } from 'react-icons/hi'
+import { FaMoneyCheckAlt } from 'react-icons/fa'
 
 export default function DocumentationCards() {
   return (
@@ -15,14 +15,17 @@ export default function DocumentationCards() {
         <p>Real World Assets (RWA) - Market Research and Cryptocurrency Exploration.</p>
       </a>
 
-      <a href="https://token-interface-next-app-wmn5n7rc5q-uc.a.run.app/transactions" target="_blank" className={styles.card}>
+      <a
+        href="https://token-interface-next-app-wmn5n7rc5q-uc.a.run.app/transactions"
+        target="_blank"
+        className={styles.card}
+      >
         <div className={styles.row}>
           <FaMoneyCheckAlt className={styles.logo} />↗
         </div>
         <h3>Token Management</h3>
         <p>Minting of AUT's and OXA's and Management of Tokens.</p>
       </a>
-
 
       {/* <a href="https://docs.uniswap.org/sdk/widgets/swap-widget" className={styles.card}>
         <div className={styles.row}>

@@ -9,7 +9,7 @@ function Connector({ web3Connector }: { web3Connector: Web3Connector }) {
     if (isActive) {
       connector.deactivate()
     } else {
-      connectors.forEach(([connector]) => connector.deactivate())
+      connectors.forEach(([connector]) => console.log(connector))
       connector.activate()
     }
   }, [connector, isActive])
@@ -31,6 +31,16 @@ export default function Connectors() {
       {connectors.map((web3Connector, index) => (
         <Connector key={index} web3Connector={web3Connector} />
       ))}
+      <a
+        href="https://token-interface-next-app-wmn5n7rc5q-uc.a.run.app/transactions"
+        target="_blank"
+        className={styles.openexaSwap}
+      >
+        <div className={styles.openexaSwapCard}>
+          <h3>Unidirectional Swap</h3>
+          <p>↗</p>
+        </div>
+      </a>
     </div>
   )
 }

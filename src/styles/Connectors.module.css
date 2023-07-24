@@ -1,8 +1,9 @@
 .connectors {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  margin: 1rem;
+  gap: 1.1rem;
+  margin: 0.5rem 1rem 0 1rem;
+  padding-left: 1rem;
 }
 
 .connector {
@@ -21,6 +22,41 @@
   grid-auto-flow: column;
   align-items: center;
   column-gap: 1rem;
+  margin-left: -4px;
+  width: 103%;
+}
+
+.openexaSwapCard {
+  padding: 0.5rem 1rem;
+  text-align: left;
+  background: linear-gradient(30deg, #ac50ef, #7059fb 50%, #2ecff6);
+  text-decoration: none;
+  border-radius: 20px;
+  height: 230px;
+  max-width: 262px;
+  text-align: center;
+}
+
+.openexaSwapRow {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+  column-gap: 24px;
+}
+
+.openexaSwapCard > h3 {
+  margin: 10px 0 12px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.openexaSwapCard > p {
+  margin: 8px 0 8px 0;
+  font-size: 100px;
+  line-height: 1.5;
 }
 
 .connector label {

@@ -65,7 +65,9 @@ export default function App() {
           <div className={styles.connectors} ref={connectors} tabIndex={-1}>
             <Web3Connectors />
           </div>
-
+          {/* <div>
+            <iframe src="https://uniswap-main.vercel.app/" height="500px" width="440px" />
+          </div> */}
           <div className={styles.widget}>
             <SwapWidget
               jsonRpcEndpoint={JSON_RPC_URL}
