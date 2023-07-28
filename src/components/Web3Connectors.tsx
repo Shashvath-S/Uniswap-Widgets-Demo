@@ -31,11 +31,7 @@ export default function Connectors() {
       {connectors.map((web3Connector, index) => (
         <Connector key={index} web3Connector={web3Connector} />
       ))}
-      <a
-        href="https://token-interface-next-app-wmn5n7rc5q-uc.a.run.app/transactions"
-        target="_blank"
-        className={styles.openexaSwap}
-      >
+      <a href="https://uniswap-main.vercel.app/" target="_blank" className={styles.openexaSwap}>
         <div className={styles.openexaSwapCard}>
           <h3>Unidirectional Swap</h3>
           <p>↗</p>

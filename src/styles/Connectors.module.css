@@ -4,6 +4,7 @@
   gap: 1.1rem;
   margin: 0.5rem 1rem 0 1rem;
   padding-left: 1rem;
+  margin-left: -10px;
 }
 
 .connector {

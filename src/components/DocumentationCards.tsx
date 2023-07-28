@@ -9,10 +9,14 @@ export default function DocumentationCards() {
     <div className={styles.grid}>
       <a href="https://openexa.ai/" target="_blank" className={styles.card}>
         <div className={styles.row}>
-          <BsInfoCircle className={styles.logo} />↗
+          <BsInfoCircle className={styles.logo} />
+          <p>Coming soon</p>↗
         </div>
-        <h3>RWA Market Intelligence</h3>
-        <p>Real World Assets (RWA) - Market Research and Cryptocurrency Exploration.</p>
+        <h3>EDX Markets</h3>
+        <p>
+          EDX Markets is a new digital asset marketplace designed to meet the needs of both crypto native firms and the
+          world's largest financial institutions.
+        </p>
       </a>
 
       <a
@@ -21,10 +25,15 @@ export default function DocumentationCards() {
         className={styles.card}
       >
         <div className={styles.row}>
-          <FaMoneyCheckAlt className={styles.logo} />↗
+          {/* <FaMoneyCheckAlt className={styles.logo} />↗ */}
+          <BsInfoCircle className={styles.logo} />
+          <p>Coming soon</p>↗
         </div>
-        <h3>Token Management</h3>
-        <p>Minting of AUT's and OXA's and Management of Tokens.</p>
+        <h3>AUT Marketplace</h3>
+        <p>
+          The AUT Marketplace is an aggregator comprising quotes and data from OpenEXA, Financial Institutions and other
+          tokenized quoted securities.
+        </p>
       </a>
 
       {/* <a href="https://docs.uniswap.org/sdk/widgets/swap-widget" className={styles.card}>
