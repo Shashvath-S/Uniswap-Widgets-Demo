@@ -18,7 +18,7 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 320px;
   background-color: #202232;
-  height: 250px;
+  height: 260px;
 }
 
 .card:hover,
